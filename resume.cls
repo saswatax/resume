@@ -41,6 +41,6 @@
 \titlespacing{\section}{0em}{1.2em}{.2em}
 
 \setlist{label=\textcolor{primary}{\bullet}, left=0.4em, topsep=.6em, itemsep=0em, after={\vspace{.4em}}}
-
+ 
 \newcommand{\elementheader}[1]{\textrm{\textbf{#1}}}
-\newcommand{\skillpoint}[1]{\textcolor{secondary}{\underline{#1}}}
+\newcommand{\skillheader}[1]{\textcolor{secondary}{\underline{#1}:}}
