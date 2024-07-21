@@ -2,7 +2,7 @@
 \ProvidesClass{resume}
 
 \LoadClass[a4paper, 11pt]{article}
-\RequirePackage[a4paper, vmargin=10mm, hmargin=14mm]{geometry}
+\RequirePackage[a4paper, vmargin=14mm, hmargin=16mm]{geometry}
 \RequirePackage{fontawesome5}
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
@@ -30,7 +30,7 @@
 
 \renewcommand{\familydefault}{\sfdefault}
 \thispagestyle{empty}
-\setlength{\parindent}{0pt}
+\setlength{\parindent}{0em}
 
 \definecolor{primary}{HTML}{434343}
 \definecolor{secondary}{HTML}{000000}
@@ -40,7 +40,9 @@
 \titleformat{\section}{\bfseries\color{highlight}}{}{0em}{}
 \titlespacing{\section}{0em}{1.2em}{.2em}
 
-\setlist{label=\textcolor{primary}{\bullet}, left=0.4em, topsep=.6em, itemsep=0em, after={\vspace{.4em}}}
- 
+\setlist{topsep=.6em, after={\vspace{.2em}}, parsep=0em}
+\setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=0.4em}
+\setlist[description]{rightmargin=4em, labelwidth=*}
+
 \newcommand{\elementheader}[1]{\textrm{\textbf{#1}}}
 \newcommand{\skillheader}[1]{\textcolor{secondary}{\underline{#1}:}}
