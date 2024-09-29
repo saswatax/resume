@@ -2,7 +2,7 @@
 \ProvidesClass{resume}
 
 \LoadClass[a4paper, 11pt]{article}
-\RequirePackage[a4paper, vmargin=10mm, hmargin=14mm]{geometry}
+\RequirePackage[a4paper, vmargin=13mm, hmargin=16mm]{geometry}
 \RequirePackage{fontawesome5}
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
