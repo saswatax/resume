@@ -2,7 +2,7 @@
 \ProvidesClass{resume}
 
 \LoadClass[a4paper, 11pt]{article}
-\RequirePackage[a4paper, vmargin=13mm, hmargin=16mm]{geometry}
+\RequirePackage[a4paper, vmargin=12mm, hmargin=14mm]{geometry}
 \RequirePackage{fontawesome5}
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
@@ -38,11 +38,11 @@
 \color{primary}
 
 \titleformat{\section}{\bfseries\color{highlight}}{}{0em}{}
-\titlespacing{\section}{0em}{1.2em}{.2em}
+\titlespacing{\section}{0em}{.6em}{.2em}
 
-\setlist{topsep=.6em, after={\vspace{.2em}}, parsep=0em}
-\setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=0.4em}
-\setlist[description]{rightmargin=4em, labelwidth=*}
+\setlist{topsep=.4em, after={\vspace{.2em}}, parsep=0em}
+\setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=0.3em}
+\setlist[description]{rightmargin=4em, labelwidth=*, itemsep=0.2em}
 
 \newcommand{\elementheader}[1]{\textrm{\textbf{#1}}}
 \newcommand{\skillheader}[1]{\textcolor{secondary}{\underline{#1}:}}
