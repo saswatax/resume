@@ -38,11 +38,11 @@
 \color{primary}
 
 \titleformat{\section}{\bfseries\color{highlight}}{}{0em}{}
-\titlespacing{\section}{0em}{0.7em}{.2em}
+\titlespacing{\section}{0em}{.8em}{.2em}
 
 \setlist{topsep=.4em, after={\vspace{.2em}}, parsep=0em}
-\setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=0.3em}
-\setlist[description]{labelwidth=*, itemsep=0.2em}
+\setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=.5em}
+\setlist[description]{labelwidth=*, itemsep=0.3em}
 
 \newcommand{\elementheader}[1]{\textrm{\textbf{#1}}}
 \newcommand{\skillheader}[1]{\textcolor{secondary}{\underline{#1}:}}
