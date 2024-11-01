@@ -42,7 +42,7 @@
 
 \setlist{topsep=.4em, after={\vspace{.2em}}, parsep=0em}
 \setlist[itemize]{label=\textcolor{primary}{$\bullet$}, left=0.4em, itemsep=.5em}
-\setlist[description]{labelwidth=*, itemsep=0.3em}
+\setlist[description]{labelwidth=*, itemsep=0.3em, font=\normalfont\underline}
 
 \newcommand{\elementheader}[1]{\textrm{\textbf{#1}}}
 \newcommand{\skillheader}[1]{\textcolor{secondary}{\underline{#1}:}}
