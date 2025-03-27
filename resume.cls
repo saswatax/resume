@@ -1,14 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}
 
-\LoadClass[a4paper, 11pt]{article}
-\RequirePackage[a4paper, vmargin=14mm, hmargin=18mm]{geometry}
+\LoadClass[11pt, a4paper]{article}
+\RequirePackage[a4paper, margin=16mm]{geometry}
 \RequirePackage{fontawesome5}
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
 \RequirePackage[hidelinks]{hyperref}
+\RequirePackage{ulem}
 
 \setmainfont{Merriweather}[
   Path=./fonts/Merriweather/,
@@ -37,9 +38,9 @@
 \definecolor{highlight}{HTML}{4a86e8}
 \color{primary}
 
-\titleformat{\section}{\bfseries\color{highlight}}{}{0em}{}[\color{primary}\vspace{.1em}\hrule\vspace{.2em}]
-\titlespacing{\section}{0em}{.8em}{.2em}
+\titleformat{\section}{\bfseries\color{highlight}}{}{0em}{}[\color{primary}\vspace{.2em}\hrule]
+\titlespacing{\section}{0em}{1em}{.8em}
 
-\setlist{topsep=.4em, parsep=0em}
-\setlist[itemize]{label={$\bullet$}, left=0em, itemsep=.5em}
+\setlist{topsep=.6em, parsep=0em}
+\setlist[itemize]{label={$\bullet$}, left=0em, itemsep=.6em}
 \setlist[description]{itemsep=0.3em}
