@@ -42,5 +42,5 @@
 \titlespacing{\section}{0em}{1em}{.8em}
 
 \setlist{topsep=.6em, parsep=0em}
-\setlist[itemize]{label={$\bullet$}, left=0em, itemsep=.6em}
+\setlist[itemize]{label={$\bullet$}, left=0em, itemsep=.5em}
 \setlist[description]{itemsep=0.3em}
